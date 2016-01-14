@@ -1,0 +1,3 @@
+# baskinoAutomationTest
+
+Just study project
