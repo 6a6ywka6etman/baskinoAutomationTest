@@ -1,0 +1,25 @@
+2016-01-13 18:17:20 INFO  Steps:23 - Browser started
+2016-01-13 18:17:26 INFO  LoginPage:47 - Login page opened
+2016-01-13 18:19:14 INFO  Steps:23 - Browser started
+2016-01-13 18:19:20 INFO  LoginPage:47 - Login page opened
+2016-01-13 18:21:47 INFO  Steps:23 - Browser started
+2016-01-13 18:21:47 INFO  LoginPage:47 - Login page opened
+2016-01-13 18:24:00 INFO  Steps:23 - Browser started
+2016-01-13 18:24:03 INFO  LoginPage:47 - Login page opened
+2016-01-13 18:24:10 INFO  LoginPage:57 - Login performed
+2016-01-14 10:41:43 INFO  Steps:23 - Browser started
+2016-01-14 10:41:47 INFO  LoginPage:47 - Login page opened
+2016-01-14 10:41:54 INFO  LoginPage:57 - Login performed
+2016-01-18 13:57:57 INFO  Steps:23 - Browser started
+2016-01-18 13:58:04 INFO  LoginPage:47 - Login page opened
+2016-01-18 13:58:06 INFO  LoginPage:54 - Login done
+2016-01-18 13:58:09 INFO  LoginPage:58 - Login performed
+2016-01-18 14:02:00 INFO  Steps:23 - Browser started
+2016-01-18 14:02:04 INFO  LoginPage:47 - Login page opened
+2016-01-18 14:02:07 INFO  LoginPage:54 - Login done
+2016-01-18 14:02:10 INFO  LoginPage:58 - Login performed
+2016-01-18 14:44:09 INFO  Steps:24 - Browser started
+2016-01-18 14:44:12 INFO  LoginPage:47 - Login page opened
+2016-01-18 14:44:15 INFO  LoginPage:54 - Login done
+2016-01-18 14:44:18 INFO  LoginPage:58 - Login performed
+2016-01-18 14:44:28 INFO  Steps:24 - Browser started

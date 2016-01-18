@@ -30,7 +30,7 @@ public class LoginPage extends AbstractPage{
     @FindBy(xpath = "//ul[@class='user']//li//a[@id='login_button']")
     private WebElement buttonAcc;
 
-    @FindBy(xpath = "//ul[@class='user_logged_list']//li[contains(a,'/user')]")
+    @FindBy(xpath = "//a[@href='http://baskino.club/user/adminnn/']")
     private WebElement buttonAccaunt;
 
     @FindBy(xpath = "//div[@class='head']//h2[@class='title']//span")
@@ -46,13 +46,14 @@ public class LoginPage extends AbstractPage{
         driver.navigate().to(BASE_URL);
         logger.info("Login page opened");
     }
-    public void login(String username, String password)
-    {
+    public void login(String username, String password) throws InterruptedException {
         buttonInput.click();
         inputLogin.sendKeys(username);
         inputPassword.sendKeys(password);
         buttonSubmit.click();
+        logger.info("Login done");
         buttonAcc.click();
+        Thread.sleep(2000);
         buttonAccaunt.click();
         logger.info("Login performed");
     }

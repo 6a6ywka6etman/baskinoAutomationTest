@@ -9,9 +9,10 @@ import steps.Steps;
  */
 public class BaskinoAutomationTest {
 
-    private Steps steps;
+      private Steps steps;
     private final String USERNAME = "adminnn";
     private final String PASSWORD = "adminnn";
+    private final String SEARCHMOVIE="Scorpion";
 
     @BeforeMethod(description = "Init browser")
     public void setUp()
@@ -21,10 +22,15 @@ public class BaskinoAutomationTest {
     }
 
     @Test
-    public void oneCanLoginBaskino()
-    {
+    public void oneCanLoginBaskino() throws InterruptedException {
         steps.loginBaskino(USERNAME,PASSWORD);
         Assert.assertTrue(steps.isLoggedIn(USERNAME));
+    }
+
+    @Test
+    public void searchMovieBaskino() throws InterruptedException{
+        steps.searchMovie(SEARCHMOVIE);
+        Assert.assertTrue(steps.isSearch(SEARCHMOVIE));
     }
 
     @AfterMethod(description = "Stop Browser")
