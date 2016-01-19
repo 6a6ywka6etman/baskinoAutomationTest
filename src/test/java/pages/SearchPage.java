@@ -24,28 +24,24 @@ import org.openqa.selenium.support.PageFactory;
         logger.info("Search page opened");
     }
 
-        @FindBy(xpath = "//input[@id='story']")
+        @FindBy(xpath = "//form[@id='search']//fieldset[@id='find']//div//span[@class='bg']//input[@id='story']")
         private WebElement inputSearch;
 
-        @FindBy(xpath = "//a [@class='find-button']")
+        @FindBy(xpath = "//form[@id='search']//fieldset[@id='find']//div//a[@class='find-button']")
         private WebElement buttonSearch;
 
-        @FindBy(xpath = "//a[@href='http://baskino.club/serial/10995-skorpion.html']")
-        private WebElement buttonMovie;
-
-        @FindBy(xpath = "//tr[@itemprop='alternativeHeadline']")
-        private WebElement linkSearch;
+        @FindBy(xpath = "//div[@class='posttitle']//a[@href='http://baskino.club/films/komedii/13056-lobster.html']")
+        private WebElement linkMovie;
 
         public void search(String search) throws InterruptedException {
             inputSearch.sendKeys(search);
             buttonSearch.click();
             Thread.sleep(2000);
             logger.info("Search done");
-            buttonMovie.click();
-            logger.info("Login performed");
+            logger.info("Search performed");
         }
         public String getSearchName()
         {
-            return linkSearch.getText();
+            return linkMovie.getText();
         }
     }

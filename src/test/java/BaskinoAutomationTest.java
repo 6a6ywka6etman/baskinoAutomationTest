@@ -12,7 +12,8 @@ public class BaskinoAutomationTest {
       private Steps steps;
     private final String USERNAME = "adminnn";
     private final String PASSWORD = "adminnn";
-    private final String SEARCHMOVIE="Scorpion";
+    private final String SEARCHMOVIE="лобстер";
+    private final String SEARCHACTOR="джонни депп";
 
     @BeforeMethod(description = "Init browser")
     public void setUp()
@@ -31,6 +32,12 @@ public class BaskinoAutomationTest {
     public void searchMovieBaskino() throws InterruptedException{
         steps.searchMovie(SEARCHMOVIE);
         Assert.assertTrue(steps.isSearch(SEARCHMOVIE));
+    }
+
+    @Test
+    public void searchActorBaskino() throws InterruptedException{
+        steps.searchActr(SEARCHACTOR);
+        Assert.assertTrue(steps.isSearchA(SEARCHACTOR));
     }
 
     @AfterMethod(description = "Stop Browser")

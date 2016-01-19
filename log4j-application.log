@@ -23,3 +23,19 @@
 2016-01-18 14:44:15 INFO  LoginPage:54 - Login done
 2016-01-18 14:44:18 INFO  LoginPage:58 - Login performed
 2016-01-18 14:44:28 INFO  Steps:24 - Browser started
+2016-01-19 10:38:57 INFO  Steps:24 - Browser started
+2016-01-19 10:39:02 INFO  SearchPage:24 - Search page opened
+2016-01-19 10:39:08 INFO  SearchPage:40 - Search done
+2016-01-19 10:39:08 INFO  SearchPage:41 - Search performed
+2016-01-19 10:51:41 INFO  Steps:25 - Browser started
+2016-01-19 10:51:46 INFO  SearchActor:24 - Search page opened
+2016-01-19 10:51:52 INFO  SearchActor:40 - Search done
+2016-01-19 10:51:52 INFO  SearchActor:41 - Search performed
+2016-01-19 10:52:43 INFO  Steps:25 - Browser started
+2016-01-19 10:52:47 INFO  SearchPage:24 - Search page opened
+2016-01-19 10:52:52 INFO  SearchPage:40 - Search done
+2016-01-19 10:52:52 INFO  SearchPage:41 - Search performed
+2016-01-19 10:55:37 INFO  Steps:25 - Browser started
+2016-01-19 10:55:42 INFO  SearchActor:24 - Search page opened
+2016-01-19 10:55:48 INFO  SearchActor:40 - Search done
+2016-01-19 10:55:48 INFO  SearchActor:41 - Search performed

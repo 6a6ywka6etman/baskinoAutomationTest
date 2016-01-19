@@ -4,6 +4,7 @@ import org.apache.log4j.Logger;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import pages.LoginPage;
+import pages.SearchActor;
 import pages.SearchPage;
 
 import java.util.concurrent.TimeUnit;
@@ -51,5 +52,17 @@ public class Steps {
     {
         SearchPage searchPage = new SearchPage(driver);
         return (searchPage.getSearchName().trim().toLowerCase().equals(search));
+    }
+
+    public void searchActr(String searchA) throws InterruptedException{
+        SearchActor searchActor = new SearchActor(driver);
+        searchActor.openPage();
+        searchActor.searchAct(searchA);
+    }
+
+    public boolean isSearchA(String searchA)
+    {
+        SearchActor searchActor = new SearchActor(driver);
+        return (searchActor.getSearchActor().trim().toLowerCase().equals(searchA));
     }
 }
