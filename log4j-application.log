@@ -39,3 +39,207 @@
 2016-01-19 10:55:42 INFO  SearchActor:24 - Search page opened
 2016-01-19 10:55:48 INFO  SearchActor:40 - Search done
 2016-01-19 10:55:48 INFO  SearchActor:41 - Search performed
+2016-01-20 10:05:13 INFO  Steps:24 - Browser started
+2016-01-20 10:05:20 INFO  LoginPage:38 - Login page opened
+2016-01-20 10:05:29 INFO  LoginPage:45 - Login done
+2016-01-20 10:05:31 INFO  LoginPage:47 - Login performed
+2016-01-20 10:13:17 INFO  Steps:24 - Browser started
+2016-01-20 10:13:17 INFO  LoginPage:38 - Login page opened
+2016-01-20 10:13:24 INFO  LoginPage:45 - Login done
+2016-01-20 10:13:26 INFO  LoginPage:47 - Login performed
+2016-01-20 10:13:27 INFO  SearchPage:24 - Search page opened
+2016-01-20 10:14:24 INFO  Steps:24 - Browser started
+2016-01-20 10:14:30 INFO  LoginPage:38 - Login page opened
+2016-01-20 10:14:39 INFO  LoginPage:45 - Login done
+2016-01-20 10:14:41 INFO  LoginPage:47 - Login performed
+2016-01-20 10:14:46 INFO  SearchPage:24 - Search page opened
+2016-01-20 10:14:55 INFO  SearchPage:40 - Search done
+2016-01-20 10:14:55 INFO  SearchPage:41 - Search performed
+2016-01-20 10:16:08 INFO  Steps:24 - Browser started
+2016-01-20 10:16:14 INFO  LoginPage:38 - Login page opened
+2016-01-20 10:16:23 INFO  LoginPage:45 - Login done
+2016-01-20 10:16:25 INFO  LoginPage:47 - Login performed
+2016-01-20 10:16:30 INFO  SearchPage:24 - Search page opened
+2016-01-20 10:16:36 INFO  SearchPage:40 - Search done
+2016-01-20 10:16:36 INFO  SearchPage:41 - Search performed
+2016-01-20 10:18:47 INFO  Steps:24 - Browser started
+2016-01-20 10:18:47 INFO  LoginPage:38 - Login page opened
+2016-01-20 10:18:54 INFO  LoginPage:45 - Login done
+2016-01-20 10:18:56 INFO  LoginPage:47 - Login performed
+2016-01-20 10:18:57 INFO  SearchPage:24 - Search page opened
+2016-01-20 10:19:04 INFO  SearchPage:40 - Search done
+2016-01-20 10:19:04 INFO  SearchPage:41 - Search performed
+2016-01-20 10:20:32 INFO  Steps:24 - Browser started
+2016-01-20 10:20:38 INFO  LoginPage:38 - Login page opened
+2016-01-20 10:20:46 INFO  LoginPage:45 - Login done
+2016-01-20 10:20:48 INFO  LoginPage:47 - Login performed
+2016-01-20 10:20:53 INFO  SearchPage:24 - Search page opened
+2016-01-20 10:21:00 INFO  SearchPage:40 - Search done
+2016-01-20 10:21:00 INFO  SearchPage:41 - Search performed
+2016-01-20 10:24:32 INFO  Steps:24 - Browser started
+2016-01-20 10:24:39 INFO  LoginPage:38 - Login page opened
+2016-01-20 10:24:47 INFO  LoginPage:45 - Login done
+2016-01-20 10:24:49 INFO  LoginPage:47 - Login performed
+2016-01-20 10:24:55 INFO  SearchPage:24 - Search page opened
+2016-01-20 10:25:02 INFO  SearchPage:43 - Search done
+2016-01-20 10:25:04 INFO  SearchPage:46 - Search performed
+2016-01-20 10:26:00 INFO  Steps:24 - Browser started
+2016-01-20 10:26:08 INFO  LoginPage:38 - Login page opened
+2016-01-20 10:26:17 INFO  LoginPage:45 - Login done
+2016-01-20 10:26:19 INFO  LoginPage:47 - Login performed
+2016-01-20 10:26:24 INFO  SearchPage:24 - Search page opened
+2016-01-20 10:26:31 INFO  SearchPage:43 - Search done
+2016-01-20 10:26:37 INFO  SearchPage:48 - Search performed
+2016-01-20 10:29:01 INFO  Steps:24 - Browser started
+2016-01-20 10:29:07 INFO  LoginPage:38 - Login page opened
+2016-01-20 10:29:16 INFO  LoginPage:45 - Login done
+2016-01-20 10:29:18 INFO  LoginPage:47 - Login performed
+2016-01-20 10:29:23 INFO  SearchPage:24 - Search page opened
+2016-01-20 10:29:30 INFO  SearchPage:43 - Search done
+2016-01-20 10:29:44 INFO  SearchPage:52 - Search performed
+2016-01-20 10:30:29 INFO  Steps:24 - Browser started
+2016-01-20 10:30:35 INFO  LoginPage:38 - Login page opened
+2016-01-20 10:30:43 INFO  LoginPage:45 - Login done
+2016-01-20 10:30:45 INFO  LoginPage:47 - Login performed
+2016-01-20 10:30:49 INFO  SearchPage:24 - Search page opened
+2016-01-20 10:30:56 INFO  SearchPage:43 - Search done
+2016-01-20 10:31:30 INFO  SearchPage:62 - Search performed
+2016-01-20 10:33:05 INFO  Steps:24 - Browser started
+2016-01-20 10:33:15 INFO  LoginPage:38 - Login page opened
+2016-01-20 10:33:26 INFO  LoginPage:45 - Login done
+2016-01-20 10:33:28 INFO  LoginPage:47 - Login performed
+2016-01-20 10:33:34 INFO  SearchPage:24 - Search page opened
+2016-01-20 10:34:54 INFO  Steps:24 - Browser started
+2016-01-20 10:35:01 INFO  LoginPage:38 - Login page opened
+2016-01-20 10:35:10 INFO  LoginPage:45 - Login done
+2016-01-20 10:35:12 INFO  LoginPage:47 - Login performed
+2016-01-20 10:35:18 INFO  SearchPage:24 - Search page opened
+2016-01-20 10:37:36 INFO  Steps:24 - Browser started
+2016-01-20 10:37:42 INFO  LoginPage:38 - Login page opened
+2016-01-20 10:37:51 INFO  LoginPage:45 - Login done
+2016-01-20 10:37:53 INFO  LoginPage:47 - Login performed
+2016-01-20 10:37:58 INFO  SearchPage:24 - Search page opened
+2016-01-20 10:38:05 INFO  SearchPage:40 - Search done
+2016-01-20 10:38:05 INFO  SearchPage:41 - Search performed
+2016-01-20 10:38:58 INFO  Steps:24 - Browser started
+2016-01-20 10:39:06 INFO  LoginPage:38 - Login page opened
+2016-01-20 10:39:15 INFO  LoginPage:45 - Login done
+2016-01-20 10:39:17 INFO  LoginPage:47 - Login performed
+2016-01-20 10:39:21 INFO  SearchPage:24 - Search page opened
+2016-01-20 10:39:28 INFO  SearchPage:40 - Search done
+2016-01-20 10:39:28 INFO  SearchPage:41 - Search performed
+2016-01-20 10:40:15 INFO  Steps:24 - Browser started
+2016-01-20 10:40:25 INFO  LoginPage:38 - Login page opened
+2016-01-20 10:40:39 INFO  LoginPage:45 - Login done
+2016-01-20 10:40:41 INFO  LoginPage:47 - Login performed
+2016-01-20 10:40:48 INFO  SearchPage:24 - Search page opened
+2016-01-20 10:40:57 INFO  SearchPage:40 - Search done
+2016-01-20 10:40:57 INFO  SearchPage:41 - Search performed
+2016-01-20 11:01:27 INFO  Steps:25 - Browser started
+2016-01-20 11:01:34 INFO  LoginPage:38 - Login page opened
+2016-01-20 11:01:41 INFO  LoginPage:45 - Login done
+2016-01-20 11:01:43 INFO  LoginPage:47 - Login performed
+2016-01-20 11:01:47 INFO  AboutDiscription:33 - Bio settings page opened
+2016-01-20 11:01:53 INFO  AboutDiscription:39 - bio added
+2016-01-20 11:01:54 INFO  AboutDiscription:41 - bio performed
+2016-01-20 11:04:13 INFO  Steps:25 - Browser started
+2016-01-20 11:04:22 INFO  LoginPage:38 - Login page opened
+2016-01-20 11:04:31 INFO  LoginPage:45 - Login done
+2016-01-20 11:04:33 INFO  LoginPage:47 - Login performed
+2016-01-20 11:04:38 INFO  SearchPage:24 - Search page opened
+2016-01-20 11:04:45 INFO  SearchPage:40 - Search done
+2016-01-20 11:04:45 INFO  SearchPage:41 - Search performed
+2016-01-20 11:05:02 INFO  Steps:25 - Browser started
+2016-01-20 11:05:09 INFO  LoginPage:38 - Login page opened
+2016-01-20 11:05:18 INFO  LoginPage:45 - Login done
+2016-01-20 11:05:20 INFO  LoginPage:47 - Login performed
+2016-01-20 11:05:24 INFO  AboutDiscription:33 - Bio settings page opened
+2016-01-20 11:05:30 INFO  AboutDiscription:39 - bio added
+2016-01-20 11:05:30 INFO  AboutDiscription:41 - bio performed
+2016-01-20 11:08:20 INFO  Steps:25 - Browser started
+2016-01-20 11:08:26 INFO  LoginPage:38 - Login page opened
+2016-01-20 11:08:35 INFO  LoginPage:45 - Login done
+2016-01-20 11:08:37 INFO  LoginPage:47 - Login performed
+2016-01-20 11:08:41 INFO  AboutDiscription:33 - Bio settings page opened
+2016-01-20 11:08:47 INFO  AboutDiscription:39 - bio added
+2016-01-20 11:08:47 INFO  AboutDiscription:41 - bio performed
+2016-01-20 11:10:31 INFO  Steps:25 - Browser started
+2016-01-20 11:10:38 INFO  LoginPage:38 - Login page opened
+2016-01-20 11:10:47 INFO  LoginPage:45 - Login done
+2016-01-20 11:10:49 INFO  LoginPage:47 - Login performed
+2016-01-20 11:10:54 INFO  AboutDiscription:33 - Bio settings page opened
+2016-01-20 11:10:59 INFO  AboutDiscription:39 - bio added
+2016-01-20 11:11:04 INFO  AboutDiscription:43 - bio performed
+2016-01-20 11:38:27 INFO  Steps:26 - Browser started
+2016-01-20 11:38:36 INFO  LoginPage:38 - Login page opened
+2016-01-20 11:38:46 INFO  LoginPage:45 - Login done
+2016-01-20 11:38:48 INFO  LoginPage:47 - Login performed
+2016-01-20 11:38:56 INFO  AddToFavorite:24 - Game page opened
+2016-01-20 11:39:02 INFO  AddToFavorite:48 - Search done
+2016-01-20 11:40:58 INFO  Steps:26 - Browser started
+2016-01-20 11:40:59 INFO  LoginPage:38 - Login page opened
+2016-01-20 11:41:05 INFO  LoginPage:45 - Login done
+2016-01-20 11:41:07 INFO  LoginPage:47 - Login performed
+2016-01-20 11:41:09 INFO  AboutDiscription:33 - Bio settings page opened
+2016-01-20 11:41:18 INFO  AboutDiscription:39 - bio added
+2016-01-20 11:41:22 INFO  AboutDiscription:43 - bio performed
+2016-01-20 11:41:47 INFO  Steps:26 - Browser started
+2016-01-20 11:41:53 INFO  LoginPage:38 - Login page opened
+2016-01-20 11:42:02 INFO  LoginPage:45 - Login done
+2016-01-20 11:42:04 INFO  LoginPage:47 - Login performed
+2016-01-20 11:42:12 INFO  AddToFavorite:24 - Game page opened
+2016-01-20 11:42:17 INFO  AddToFavorite:48 - Search done
+2016-01-20 11:42:35 INFO  AddToFavorite:57 - Add to favorite performed
+2016-01-20 11:45:50 INFO  Steps:26 - Browser started
+2016-01-20 11:45:57 INFO  LoginPage:38 - Login page opened
+2016-01-20 11:46:04 INFO  LoginPage:45 - Login done
+2016-01-20 11:46:06 INFO  LoginPage:47 - Login performed
+2016-01-20 11:46:11 INFO  AddToFavorite:24 - Game page opened
+2016-01-20 11:46:17 INFO  AddToFavorite:48 - Search done
+2016-01-20 11:46:40 INFO  AddToFavorite:57 - Add to favorite performed
+2016-01-20 11:51:13 INFO  Steps:26 - Browser started
+2016-01-20 11:51:13 INFO  LoginPage:38 - Login page opened
+2016-01-20 11:51:19 INFO  LoginPage:45 - Login done
+2016-01-20 11:51:21 INFO  LoginPage:47 - Login performed
+2016-01-20 11:51:23 INFO  AddToFavorite:24 - Game page opened
+2016-01-20 11:51:32 INFO  AddToFavorite:48 - Search done
+2016-01-20 11:51:48 INFO  AddToFavorite:57 - Add to favorite performed
+2016-01-20 11:52:18 INFO  Steps:26 - Browser started
+2016-01-20 11:52:24 INFO  LoginPage:38 - Login page opened
+2016-01-20 11:52:32 INFO  LoginPage:45 - Login done
+2016-01-20 11:52:34 INFO  LoginPage:47 - Login performed
+2016-01-20 11:52:38 INFO  AddToFavorite:24 - Game page opened
+2016-01-20 11:52:43 INFO  AddToFavorite:48 - Search done
+2016-01-20 11:52:58 INFO  AddToFavorite:57 - Add to favorite performed
+2016-01-20 11:54:54 INFO  Steps:26 - Browser started
+2016-01-20 11:55:01 INFO  LoginPage:38 - Login page opened
+2016-01-20 11:55:09 INFO  LoginPage:45 - Login done
+2016-01-20 11:55:11 INFO  LoginPage:47 - Login performed
+2016-01-20 11:55:16 INFO  AddToFavorite:24 - Game page opened
+2016-01-20 11:55:20 INFO  AddToFavorite:48 - Search done
+2016-01-20 11:55:40 INFO  AddToFavorite:60 - Add to favorite performed
+2016-01-20 11:56:18 INFO  Steps:26 - Browser started
+2016-01-20 11:56:18 INFO  LoginPage:38 - Login page opened
+2016-01-20 11:56:30 INFO  Steps:26 - Browser started
+2016-01-20 11:56:40 INFO  LoginPage:38 - Login page opened
+2016-01-20 11:56:50 INFO  LoginPage:45 - Login done
+2016-01-20 11:56:52 INFO  LoginPage:47 - Login performed
+2016-01-20 11:56:57 INFO  AddToFavorite:24 - Game page opened
+2016-01-20 11:57:02 INFO  AddToFavorite:48 - Search done
+2016-01-20 11:57:23 INFO  AddToFavorite:60 - Add to favorite performed
+2016-01-20 11:58:14 INFO  Steps:26 - Browser started
+2016-01-20 11:58:14 INFO  LoginPage:38 - Login page opened
+2016-01-20 11:58:27 INFO  LoginPage:45 - Login done
+2016-01-20 11:58:29 INFO  LoginPage:47 - Login performed
+2016-01-20 11:58:34 INFO  AddToFavorite:24 - Game page opened
+2016-01-20 11:58:39 INFO  AddToFavorite:48 - Search done
+2016-01-20 11:59:06 INFO  AddToFavorite:60 - Add to favorite performed
+2016-01-20 12:00:53 INFO  Steps:26 - Browser started
+2016-01-20 12:01:00 INFO  LoginPage:38 - Login page opened
+2016-01-20 12:01:45 INFO  Steps:26 - Browser started
+2016-01-20 12:01:51 INFO  LoginPage:38 - Login page opened
+2016-01-20 12:01:59 INFO  LoginPage:45 - Login done
+2016-01-20 12:02:01 INFO  LoginPage:47 - Login performed
+2016-01-20 12:02:05 INFO  AddToFavorite:24 - Game page opened
+2016-01-20 12:02:10 INFO  AddToFavorite:48 - Search done
+2016-01-20 12:02:31 INFO  AddToFavorite:60 - Add to favorite performed

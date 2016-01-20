@@ -3,8 +3,9 @@ package steps;
 import org.apache.log4j.Logger;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import pages.AboutDiscription;
+import pages.AddToFavorite;
 import pages.LoginPage;
-import pages.SearchActor;
 import pages.SearchPage;
 
 import java.util.concurrent.TimeUnit;
@@ -30,7 +31,7 @@ public class Steps {
         driver.quit();
     }
 
-    public void loginBaskino(String username, String password) throws InterruptedException {
+    public void loginArmorGames(String username, String password) throws InterruptedException {
         LoginPage loginPage = new LoginPage(driver);
         loginPage.openPage();
         loginPage.login(username, password);
@@ -42,7 +43,7 @@ public class Steps {
         return (loginPage.getLoggedInUserName().trim().toLowerCase().equals(username));
     }
 
-    public void searchMovie(String search) throws InterruptedException{
+    public void searchGame(String search) throws InterruptedException{
         SearchPage searchPage = new SearchPage(driver);
         searchPage.openPage();
         searchPage.search(search);
@@ -54,15 +55,28 @@ public class Steps {
         return (searchPage.getSearchName().trim().toLowerCase().equals(search));
     }
 
-    public void searchActr(String searchA) throws InterruptedException{
-        SearchActor searchActor = new SearchActor(driver);
-        searchActor.openPage();
-        searchActor.searchAct(searchA);
+    public void addBio(String bio) throws InterruptedException{
+        AboutDiscription aboutDiscription = new AboutDiscription(driver);
+        aboutDiscription.openPage();
+        aboutDiscription.discription(bio);
     }
 
-    public boolean isSearchA(String searchA)
+    public boolean isBio(String bio)
     {
-        SearchActor searchActor = new SearchActor(driver);
-        return (searchActor.getSearchActor().trim().toLowerCase().equals(searchA));
+        AboutDiscription aboutDiscription = new AboutDiscription(driver);
+        return (aboutDiscription.getUserBio().trim().toLowerCase().equals(bio));
     }
+
+    public void addFav(String fav) throws InterruptedException{
+        AddToFavorite addToFavorite = new AddToFavorite(driver);
+        addToFavorite.openPage();
+        addToFavorite.favorite(fav);
+    }
+
+    public boolean isFav(String fav)
+    {
+        AddToFavorite addToFavorite = new AddToFavorite(driver);
+        return (addToFavorite.getGameName().trim().toLowerCase().equals(fav));
+    }
+
 }

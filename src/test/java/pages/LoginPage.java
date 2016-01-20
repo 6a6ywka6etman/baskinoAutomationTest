@@ -13,27 +13,18 @@ import org.openqa.selenium.support.PageFactory;
  */
 public class LoginPage extends AbstractPage{
     private final Logger logger = Logger.getLogger(LoginPage.class);
-    private final String BASE_URL = "http://baskino.club";
+    private final String BASE_URL = "http://armorgames.com/";
 
-    @FindBy(xpath = "//a[@id='login_button']")
-    private WebElement buttonInput;
+    @FindBy(xpath = "//input[@id='username-input']")
+    private WebElement inputUsername;
 
-    @FindBy(xpath = "//input[@id='login_name']")
-    private WebElement inputLogin;
-
-    @FindBy(xpath = "//input[@id='login_password']")
+    @FindBy(xpath = "//input[@id='password-input']")
     private WebElement inputPassword;
 
-    @FindBy(xpath = "//li[@class='buttons']//input[@class='fbutton']")
-    private WebElement buttonSubmit;
+    @FindBy(xpath = "//button[@type='submit']")
+    private WebElement buttonLogin;
 
-    @FindBy(xpath = "//ul[@class='user']//li//a[@id='login_button']")
-    private WebElement buttonAcc;
-
-    @FindBy(xpath = "//a[@href='http://baskino.club/user/adminnn/']")
-    private WebElement buttonAccaunt;
-
-    @FindBy(xpath = "//div[@class='head']//h2[@class='title']//span")
+    @FindBy(xpath = "//span[@class='username']")
     private WebElement linkLoggedInUser;
 
     public LoginPage(WebDriver driver) {
@@ -47,14 +38,12 @@ public class LoginPage extends AbstractPage{
         logger.info("Login page opened");
     }
     public void login(String username, String password) throws InterruptedException {
-        buttonInput.click();
-        inputLogin.sendKeys(username);
+
+        inputUsername.sendKeys(username);
         inputPassword.sendKeys(password);
-        buttonSubmit.click();
+        buttonLogin.click();
         logger.info("Login done");
-        buttonAcc.click();
         Thread.sleep(2000);
-        buttonAccaunt.click();
         logger.info("Login performed");
     }
     public String getLoggedInUserName()

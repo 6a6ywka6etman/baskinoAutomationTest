@@ -11,7 +11,7 @@ import org.openqa.selenium.support.PageFactory;
  */
     public class SearchPage extends AbstractPage{
         private final Logger logger = Logger.getLogger(SearchPage.class);
-        private final String BASE_URL = "http://baskino.club";
+        private final String BASE_URL = "http://armorgames.com/";
 
     public SearchPage(WebDriver driver) {
         super(driver);
@@ -24,14 +24,14 @@ import org.openqa.selenium.support.PageFactory;
         logger.info("Search page opened");
     }
 
-        @FindBy(xpath = "//form[@id='search']//fieldset[@id='find']//div//span[@class='bg']//input[@id='story']")
+        @FindBy(xpath = "//input[@id='search-input']")
         private WebElement inputSearch;
 
-        @FindBy(xpath = "//form[@id='search']//fieldset[@id='find']//div//a[@class='find-button']")
+        @FindBy(xpath = "//button[@type='submit']")
         private WebElement buttonSearch;
 
-        @FindBy(xpath = "//div[@class='posttitle']//a[@href='http://baskino.club/films/komedii/13056-lobster.html']")
-        private WebElement linkMovie;
+        @FindBy(xpath = "//p[@class='desc']//strong")
+        private WebElement linkGAME;
 
         public void search(String search) throws InterruptedException {
             inputSearch.sendKeys(search);
@@ -42,6 +42,6 @@ import org.openqa.selenium.support.PageFactory;
         }
         public String getSearchName()
         {
-            return linkMovie.getText();
+            return linkGAME.getText();
         }
     }
