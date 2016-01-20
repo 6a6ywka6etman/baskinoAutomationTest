@@ -12,6 +12,7 @@ public class BaskinoAutomationTest {
     private final String SEARCHGAME="wartune";
     private final String BIO="i love games";
     private final String FAV="Wartune";
+    private final String UNFAV="Wartune";
 
     @BeforeMethod(description = "Init browser")
     public void setUp()
@@ -43,6 +44,7 @@ public class BaskinoAutomationTest {
     @Test
     public void AddFavArmor() throws InterruptedException{
         steps.loginArmorGames(USERNAME,PASSWORD);
+        steps.deleteFav(UNFAV);
         steps.addFav(FAV);
         Assert.assertTrue(steps.isFav(FAV));
     }

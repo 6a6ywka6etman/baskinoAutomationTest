@@ -36,8 +36,8 @@ public class DeleteFromFavorite extends AbstractPage{
     @FindBy(xpath = "//button[@id='fav-btn']")
     private WebElement buttonFavor;
 
-    public void favorite(String fav) throws InterruptedException {
-        inputSearch.sendKeys(fav);
+    public void unfavorite(String unfav) throws InterruptedException {
+        inputSearch.sendKeys(unfav);
         buttonSearch.click();
         logger.info("Search done");
         Thread.sleep(2000);

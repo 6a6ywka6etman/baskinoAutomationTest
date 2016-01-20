@@ -3,10 +3,7 @@ package steps;
 import org.apache.log4j.Logger;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
-import pages.AboutDiscription;
-import pages.AddToFavorite;
-import pages.LoginPage;
-import pages.SearchPage;
+import pages.*;
 
 import java.util.concurrent.TimeUnit;
 
@@ -77,6 +74,12 @@ public class Steps {
     {
         AddToFavorite addToFavorite = new AddToFavorite(driver);
         return (addToFavorite.getGameName().trim().toLowerCase().equals(fav));
+    }
+
+    public void deleteFav(String unfav) throws InterruptedException{
+        DeleteFromFavorite deleteFromFavorite = new DeleteFromFavorite(driver);
+        deleteFromFavorite.openPage();
+        deleteFromFavorite.unfavorite(unfav);
     }
 
 }
